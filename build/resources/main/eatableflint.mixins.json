@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.mlrgroup.eatableflint.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+	"EatableflintModRepairItemRecipeMixin"  ],
+  "injectors": {
+	"defaultRequire": 1
+  }
+}
