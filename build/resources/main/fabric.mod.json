@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "eatableflint",
+  "version": "1.0.0",
+  "name": "可食用打火石",
+  "authors": [
+    "Kaguya, MCreator"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "Academic Free License v3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mlrgroup.eatableflint.EatableflintMod"
+    ],
+    "client": [
+      "net.mlrgroup.eatableflint.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "mixins": [
+    "eatableflint.mixins.json"
+  ]
+}
